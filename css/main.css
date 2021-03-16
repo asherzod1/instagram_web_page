@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  #fafafa;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+   /* border: 1px solid red;*/
+    
+}
+.clear {
+    clear: both;
+}
+.header{
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fff;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 47px;
+    position: fixed;
+}
+.header_section{
+    position: fixed;
+}
+
+.header_section {
+    padding-top: 10px;
+    border-bottom: 1px solid #d8d8d8;
+    background-color: #fff;
+    width: 960px;
+}
+.header a{
+    float: left;
+}
+.header a img {
+    display: inline-block;
+}
+.header .search{
+    margin-left: 250px;
+    display: inline-block;git
+    position: relative;
+    
+}
+.header .search {
+    background: #fafafa;
+    width: 215px;
+    height: 30px;
+    border: 1px solid #d8d8d8;
+    text-align: center;
+}
+.header .search i{
+    color: #d8d8d8;
+   /* margin-left: 65px;*/
+}
+
+.header input{
+    color: #111111;
+    padding: 6px;
+   /* float: left;*/
+   border: none;
+   width: 55px;
+   background: #fafafa;
+
+}
+
+
+.header input:focus{
+    outline: none;
+    border: none;
+    /*margin-left: 10px;*/
+    width: 170px;
+}
+.header input :link{
+    border: 1px solid #d8d8d8;
+}
+.navbar{
+    float: right;
+    
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 6px;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: #262626;
+}
+
+.main_section .left{
+    margin-top: 70px;   
+    width: 66%;
+    float: left;
+}
+.main_section .left .storis {
+    border: 1px solid #d8d8d8;
+    background: #fff;
+    margin-bottom: 25px;
+}
+.main_section .left .storis .storis_photos {
+    display: inline-block;
+    padding: 15px;
+}
+.main_section .left .storis .storis_photos h6{
+    text-align: center;
+}
+
+.main_section .posts {
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 60px;
+}
+
+
+.main_section .posts .info img{
+    padding: 15px;
+    float: left;
+}
+.main_section .posts .info .text{
+    padding: 19px 0px;
+    float: left;
+}
+.main_section .posts .info .text h5{
+    font-size: 14px;
+}
+.main_section .posts .info .text h6{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.main_section .posts>img{
+    width: 100%;
+}
+
+.main_section .post_footer {
+    padding: 10px;
+}
+.main_section .posts ul li {
+   display: inline-block;
+   padding-left: 3px;
+   padding-right: 3px;
+   padding-bottom: 10px;
+}
+.main_section .posts ul li a{
+    text-decoration: none;
+    color: #262626;
+    
+}
+.main_section .posts .comment{
+    margin-top: 5px;
+    border-top: 1px solid #d8d8d8;
+    padding: 10px 0;
+}
+.main_section .posts .comment a:first-child{
+    text-decoration: none;
+    color: #262626;
+    float: left;
+}
+.main_section .posts .comment input {
+    width: 78%;
+    padding: 8px 12px;
+    display: inline-block;
+    border: 0px;
+}
+.main_section .posts .comment input:focus{
+    outline: none;
+}
+.main_section .posts .comment a:last-child{
+    text-decoration: none;
+    color: #0095f6;
+}
+
+
+
+.main_section .right{
+    margin-top: 80px;
+    width: 30%;
+    float: right;
+}
+.main_section .right .profile h5{
+    font-size: 14px;
+}
+.main_section .right .profile h6{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.main_section .right .profile img{
+    padding: 15px;
+    float: left;
+}
+.main_section .right .text {
+    padding: 19px 0px;
+    float: left;
+}
